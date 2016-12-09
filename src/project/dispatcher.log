@@ -1,0 +1,4 @@
+2016-09-13 10:09:30,273 - Dispatcher - DEBUG - receive :{u'Status': u'1', u'PackageNumber': u'5522202', u'SourceID': u'00000003007e1473', u'List': [], u'DestinationID': u'000000011234asdf', u'Command': u'0e3f3648-640b-4316-a569-3ca63f89eaaa,ce8d8601-c0bc-4db6-816c-f49cb1402e12,000000011234asdf,9f427b52-c89b-4703-a659-d00e3d07d797', u'Message': u'applyRecipe', u'Type': u'NULL'}
+2016-09-13 10:09:30,273 - Dispatcher - DEBUG - replay :{u'Status': 0, u'PackageNumber': u'5522202', u'SourceID': u'000000011234asdf', u'List': [], u'DestinationID': u'00000003007e1473', u'Command': u'0e3f3648-640b-4316-a569-3ca63f89eaaa,ce8d8601-c0bc-4db6-816c-f49cb1402e12,000000011234asdf,9f427b52-c89b-4703-a659-d00e3d07d797', u'Message': 'reviced', u'Type': u'NULL'}
+2016-09-13 10:09:30,273 - Dispatcher - DEBUG - thread for controll is start !
+2016-09-13 10:09:36,728 - Dispatcher - ERROR - 

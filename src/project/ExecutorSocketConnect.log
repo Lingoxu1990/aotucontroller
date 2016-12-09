@@ -1,0 +1,48 @@
+2016-09-12 11:55:54,462 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-12 11:55:54,462 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:55:54,463 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:55:54,464 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': '000000012607d84e', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,469 - ExecutorSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': '000000012607d84e', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,469 - ExecutorSocketConnect - DEBUG - udp valid successfully
+2016-09-12 11:55:54,469 - ExecutorSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-12 11:55:54,671 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:35145...
+2016-09-12 11:55:54,672 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:35145...
+2016-09-12 11:55:54,673 - ExecutorSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-12 11:55:54,673 - ExecutorSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234qwer', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-12 11:55:54,674 - ExecutorSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35145
+2016-09-21 14:38:13,088 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:38:13,089 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:38:13,090 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:38:13,090 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': '943affc2', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,581 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:40:35,582 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:40:35,582 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:40:35,582 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'00000001ec0aec83', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,587 - ExecutorSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'00000001ec0aec83', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,587 - ExecutorSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:40:35,587 - ExecutorSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:40:35,791 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:43332...
+2016-09-21 14:40:35,791 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:43332...
+2016-09-21 14:40:35,793 - ExecutorSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:40:35,793 - ExecutorSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000031234qwer', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:40:35,794 - ExecutorSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43332
+2016-09-21 14:46:46,478 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:46:46,479 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:46:46,479 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:46:46,479 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'000000019ff5ded8', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,481 - ExecutorSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'000000019ff5ded8', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,481 - ExecutorSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:46:46,481 - ExecutorSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:46:46,687 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:43064...
+2016-09-21 14:46:46,688 - ExecutorSocketConnect - DEBUG - Accept new connection from 192.168.1.170:43064...
+2016-09-21 14:46:46,688 - ExecutorSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:46:46,689 - ExecutorSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000031234qwer', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:46:46,689 - ExecutorSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43064
+2016-09-21 15:20:16,477 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 15:20:16,479 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 15:20:16,479 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-21 15:20:16,479 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'00000001395904b1', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 15:25:35,896 - ExecutorSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 15:25:35,896 - ExecutorSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 15:25:35,896 - ExecutorSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-21 15:25:35,896 - ExecutorSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1877', 'SourceID': u'0000000142b85bc9', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}

@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+import random, time, Queue
+from multiprocessing.managers import BaseManager
+class QueueManager(BaseManager):
+    pass
+task_queue_$ = Queue.Queue()
+result_queue_$ = Queue.Queue()
+QueueManager.register('G$_task_queue', callable=lambda: task_queue_$)
+QueueManager.register('G$_result_queue', callable=lambda: result_queue_$)
+server_addr = '&'
+manager = QueueManager(address=(server_addr, 5000), authkey='abc')
+manager.start()
+def getTaskAndResult():
+    list=[]
+    list.append(('$',manager.G$_task_queue(), manager.G$_result_queue()))
+    print 'dispatcher get the task and result'
+    return list
+def shotdownManager():
+    manager.shutdown()

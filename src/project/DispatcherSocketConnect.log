@@ -1,0 +1,900 @@
+2016-09-06 10:40:02,376 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 10:40:02,376 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 10:40:02,377 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 10:40:02,377 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:40:02,410 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:40:02,410 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 10:40:02,410 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 10:41:32,410 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 10:41:32,410 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 10:41:32,411 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 10:41:32,411 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:41:32,433 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:41:32,433 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 10:41:32,433 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 10:41:32,646 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16350453...
+2016-09-06 10:41:32,646 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 10:41:32,647 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 10:41:32,647 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 10:41:32,647 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:50453
+2016-09-06 10:41:32,649 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 10:41:32,649 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 10:41:32,649 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 10:41:32,649 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:41:32,654 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:41:32,654 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 10:41:32,655 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 10:48:00,008 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 10:48:00,008 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 10:48:00,011 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 10:48:00,011 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:48:00,015 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:48:00,015 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 10:48:00,015 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 10:48:00,221 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16339936...
+2016-09-06 10:48:00,221 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 10:48:00,222 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 10:48:00,222 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 10:48:00,222 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:39936
+2016-09-06 10:48:00,226 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 10:48:00,226 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 10:48:00,226 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 10:48:00,226 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:48:00,229 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 10:48:00,229 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 10:48:00,230 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 10:48:00,433 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16338139:...
+2016-09-06 10:48:00,434 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 10:48:00,435 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 10:48:00,435 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 10:48:00,436 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:38139
+2016-09-06 11:31:21,311 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:31:21,313 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:31:21,315 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:31:21,315 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:31:21,325 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:31:21,325 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:31:21,325 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:31:21,530 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16358657...
+2016-09-06 11:31:21,530 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:31:21,531 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:31:21,532 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:31:21,532 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:58657
+2016-09-06 11:31:21,534 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:31:21,534 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:31:21,534 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:31:21,534 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:31:21,537 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:31:21,538 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:31:21,538 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:31:21,741 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16343252:...
+2016-09-06 11:31:21,741 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:31:21,742 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:31:21,742 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:31:21,742 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:43252
+2016-09-06 11:33:44,326 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:33:44,326 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:33:44,327 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:33:44,327 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:33:44,359 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:33:44,359 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:33:44,359 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:33:45,220 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16358695...
+2016-09-06 11:33:45,220 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:33:45,239 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:33:45,240 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:33:45,240 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:58695
+2016-09-06 11:33:45,241 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:33:45,241 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:33:45,242 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:33:45,242 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:33:45,781 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:33:45,781 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:33:45,781 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:33:45,996 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16343290:...
+2016-09-06 11:33:45,996 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:33:45,997 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:33:45,997 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:33:45,997 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:43290
+2016-09-06 11:36:06,140 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:36:06,141 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:36:06,142 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:36:06,142 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:36:06,153 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:36:06,153 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:36:06,153 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:36:06,357 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16358891...
+2016-09-06 11:36:06,358 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:36:06,359 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:36:06,359 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:36:06,359 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:58891
+2016-09-06 11:36:06,363 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:36:06,364 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:36:06,365 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:36:06,365 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:36:06,368 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:36:06,369 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:36:06,369 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:36:06,572 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16354277:...
+2016-09-06 11:36:06,572 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:36:06,573 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:36:06,574 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:36:06,575 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:54277
+2016-09-06 11:58:14,717 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:58:14,719 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:58:14,720 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:58:14,720 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:58:14,723 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:58:14,723 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:58:14,724 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:58:14,931 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16349920...
+2016-09-06 11:58:14,931 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:58:14,933 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:58:14,934 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:58:14,935 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:49920
+2016-09-06 11:58:14,938 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 11:58:14,939 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 11:58:14,939 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 11:58:14,940 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:58:14,946 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 11:58:14,946 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 11:58:14,946 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 11:58:15,147 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16355316:...
+2016-09-06 11:58:15,147 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 11:58:15,150 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 11:58:15,151 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 11:58:15,152 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:55316
+2016-09-06 12:00:39,194 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 12:00:39,195 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:00:39,196 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 12:00:39,196 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:00:39,203 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:00:39,203 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:00:39,203 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:00:39,408 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16349964...
+2016-09-06 12:00:39,408 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:00:39,409 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:00:39,410 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:00:39,410 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:49964
+2016-09-06 12:00:39,412 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 12:00:39,412 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:00:39,413 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 12:00:39,414 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:00:39,418 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:00:39,418 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:00:39,418 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:00:39,626 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16355361:...
+2016-09-06 12:00:39,626 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:00:39,627 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:00:39,627 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:00:39,628 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:55361
+2016-09-06 12:01:49,850 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 12:01:49,850 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:01:49,851 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 12:01:49,851 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:01:49,882 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:01:49,882 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:01:49,882 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:01:50,182 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.0.16358427...
+2016-09-06 12:01:50,183 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:01:50,183 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:01:50,184 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:01:50,184 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:58427
+2016-09-06 12:01:50,185 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.0.106 and the max connection is 20
+2016-09-06 12:01:50,185 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:01:50,185 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 12:01:50,185 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:01:50,188 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:01:50,188 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:01:50,188 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:01:50,392 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.0.16348245:...
+2016-09-06 12:01:50,392 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:01:50,393 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:01:50,393 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffa:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:01:50,393 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.0.163:48245
+2016-09-06 12:50:15,982 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-06 12:50:15,983 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:50:15,984 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.0.255 and the port is 32768 
+2016-09-06 12:50:15,985 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:50:35,973 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-06 12:50:35,974 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:50:35,974 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 12:50:35,974 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:50:35,984 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:50:35,985 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:50:35,985 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:51:06,051 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 12:51:06,051 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:51:06,052 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 12:51:06,052 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:51:06,054 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:51:06,054 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:51:06,054 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:51:06,259 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17049318...
+2016-09-06 12:51:06,259 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:51:06,260 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:51:06,260 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:51:06,261 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:49318
+2016-09-06 12:51:06,262 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 12:51:06,262 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:51:06,263 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 12:51:06,263 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:51:06,276 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:51:06,276 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:51:06,277 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:51:06,480 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17042749:...
+2016-09-06 12:51:06,480 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:51:06,481 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:51:06,481 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:51:06,482 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:42749
+2016-09-06 12:52:27,478 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 12:52:27,478 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:52:27,479 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 12:52:27,479 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:52:27,482 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:52:27,482 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:52:27,482 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:52:27,685 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17049321...
+2016-09-06 12:52:27,686 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:52:27,686 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:52:27,687 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:52:27,687 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:49321
+2016-09-06 12:52:27,688 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 12:52:27,689 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 12:52:27,689 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 12:52:27,689 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:52:27,692 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 12:52:27,692 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 12:52:27,692 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 12:52:27,895 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17042752:...
+2016-09-06 12:52:27,896 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 12:52:27,897 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 12:52:27,897 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 12:52:27,897 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:42752
+2016-09-06 14:03:34,910 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:03:34,910 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:03:34,910 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:03:34,910 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:03:34,912 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:03:34,913 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:03:34,913 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:03:35,116 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17035403...
+2016-09-06 14:03:35,116 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:03:35,118 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:03:35,118 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:03:35,118 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35403
+2016-09-06 14:03:35,120 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:03:35,120 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:03:35,120 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:03:35,121 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:03:35,123 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:03:35,123 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:03:35,123 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:03:35,327 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17033542:...
+2016-09-06 14:03:35,327 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:03:35,328 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:03:35,328 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:03:35,329 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:33542
+2016-09-06 14:04:18,663 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:04:18,663 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:04:18,663 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:04:18,664 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:18,666 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:18,666 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:04:18,666 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:04:18,869 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17035405...
+2016-09-06 14:04:18,869 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:04:18,870 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:04:18,871 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:04:18,871 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35405
+2016-09-06 14:04:18,874 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:04:18,874 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:04:18,875 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:04:18,875 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:18,878 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:18,878 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:04:18,878 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:04:19,081 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17033544:...
+2016-09-06 14:04:19,082 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:04:19,083 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:04:19,084 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:04:19,084 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:33544
+2016-09-06 14:04:55,744 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:04:55,745 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:04:55,746 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:04:55,746 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:55,748 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:55,748 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:04:55,748 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:04:55,951 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17035408...
+2016-09-06 14:04:55,952 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:04:55,952 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:04:55,953 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:04:55,953 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35408
+2016-09-06 14:04:55,955 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:04:55,955 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:04:55,955 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:04:55,955 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:55,958 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:04:55,958 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:04:55,959 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:04:56,162 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17033547:...
+2016-09-06 14:04:56,162 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:04:56,163 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:04:56,163 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:04:56,163 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:33547
+2016-09-06 14:37:34,517 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:37:34,518 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:37:34,519 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:37:34,519 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:37:34,532 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:37:34,532 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:37:34,532 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:37:34,727 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17059150...
+2016-09-06 14:37:34,727 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:37:34,728 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:37:34,729 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:37:34,729 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:59150
+2016-09-06 14:37:34,730 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:37:34,731 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:37:34,731 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:37:34,731 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:37:34,733 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:37:34,733 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:37:34,733 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:37:34,937 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17034108:...
+2016-09-06 14:37:34,937 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:37:34,938 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:37:34,939 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:37:34,939 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:34108
+2016-09-06 14:40:52,846 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:40:52,846 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:40:52,848 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:40:52,848 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:40:52,853 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:40:52,853 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:40:52,853 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:40:53,060 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17059342...
+2016-09-06 14:40:53,060 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:40:53,072 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:40:53,072 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:40:53,073 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:59342
+2016-09-06 14:40:53,074 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 14:40:53,074 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 14:40:53,074 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 14:40:53,074 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:40:53,077 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 14:40:53,077 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 14:40:53,077 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 14:40:53,281 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17055825:...
+2016-09-06 14:40:53,281 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 14:40:53,282 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 14:40:53,282 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 14:40:53,282 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:55825
+2016-09-06 15:10:08,605 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:10:08,606 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:10:08,610 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:10:08,610 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:10:08,640 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:10:08,640 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:10:08,640 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:10:08,849 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17041415...
+2016-09-06 15:10:08,849 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:10:08,850 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:10:08,850 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:10:08,850 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:41415
+2016-09-06 15:10:08,852 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:10:08,852 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:10:08,852 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:10:08,852 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:10:08,855 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:10:08,855 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:10:08,855 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:10:09,068 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17060754:...
+2016-09-06 15:10:09,068 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:10:09,069 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:10:09,069 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:10:09,069 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:60754
+2016-09-06 15:29:05,379 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:29:05,379 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:29:05,383 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:29:05,383 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:29:05,385 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:29:05,386 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:29:05,386 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:29:05,589 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17048646...
+2016-09-06 15:29:05,590 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:29:05,590 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:29:05,590 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:29:05,591 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:48646
+2016-09-06 15:29:05,593 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:29:05,593 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:29:05,594 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:29:05,594 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:29:05,597 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:29:05,597 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:29:05,597 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:29:05,801 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17035080:...
+2016-09-06 15:29:05,801 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:29:05,802 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:29:05,802 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:29:05,802 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35080
+2016-09-06 15:40:51,233 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:40:51,233 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:40:51,238 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:40:51,238 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:40:51,244 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:40:51,244 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:40:51,244 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:40:51,454 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17037839...
+2016-09-06 15:40:51,454 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:40:51,456 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:40:51,456 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:40:51,456 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:37839
+2016-09-06 15:40:51,458 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:40:51,458 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:40:51,458 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:40:51,458 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:40:51,460 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:40:51,460 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:40:51,460 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:40:51,674 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17039563:...
+2016-09-06 15:40:51,674 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:40:51,675 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:40:51,676 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:40:51,676 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:39563
+2016-09-06 15:48:28,505 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:48:28,505 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:48:28,506 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:48:28,506 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:48:28,515 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:48:28,516 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:48:28,516 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:48:28,718 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17051219...
+2016-09-06 15:48:28,719 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:48:28,719 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:48:28,720 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:48:28,720 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:51219
+2016-09-06 15:48:28,721 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:48:28,721 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:48:28,721 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:48:28,721 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:48:28,723 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:48:28,723 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:48:28,724 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:48:28,927 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17053615:...
+2016-09-06 15:48:28,927 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:48:28,928 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:48:28,928 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:48:28,929 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:53615
+2016-09-06 15:50:34,215 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:50:34,216 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:50:34,217 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:50:34,217 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:50:34,236 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:50:34,237 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:50:34,237 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:50:34,440 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17051222...
+2016-09-06 15:50:34,441 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:50:34,442 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:50:34,442 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:50:34,443 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:51222
+2016-09-06 15:50:34,447 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:50:34,449 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:50:34,450 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:50:34,451 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:50:34,454 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:50:34,454 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:50:34,455 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:50:34,658 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17053619:...
+2016-09-06 15:50:34,658 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:50:34,659 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:50:34,659 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:50:34,659 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:53619
+2016-09-06 15:55:33,298 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:55:33,298 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:55:33,300 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:55:33,301 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:55:33,308 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:55:33,308 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:55:33,308 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:55:33,512 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17037352...
+2016-09-06 15:55:33,513 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:55:33,514 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:55:33,514 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:55:33,514 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:37352
+2016-09-06 15:55:33,516 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:55:33,516 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:55:33,516 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:55:33,516 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:55:33,519 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:55:33,520 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:55:33,520 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:55:33,723 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17036024:...
+2016-09-06 15:55:33,723 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:55:33,724 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:55:33,724 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:55:33,725 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:36024
+2016-09-06 15:58:02,858 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:58:02,858 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:58:02,859 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:58:02,859 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:58:02,868 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:58:02,869 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:58:02,869 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:58:03,073 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17035377...
+2016-09-06 15:58:03,073 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:58:03,074 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:58:03,075 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:58:03,075 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35377
+2016-09-06 15:58:03,076 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 15:58:03,076 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 15:58:03,076 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 15:58:03,076 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:58:03,079 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 15:58:03,079 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 15:58:03,079 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 15:58:03,283 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17043170:...
+2016-09-06 15:58:03,283 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 15:58:03,284 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 15:58:03,284 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 15:58:03,284 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43170
+2016-09-06 16:01:56,318 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:01:56,318 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:01:56,320 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:01:56,320 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:01:56,335 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:01:56,335 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:01:56,335 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:01:56,538 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17035381...
+2016-09-06 16:01:56,538 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:01:56,539 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:01:56,540 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:01:56,540 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:35381
+2016-09-06 16:01:56,542 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:01:56,542 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:01:56,542 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:01:56,543 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:01:56,545 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:01:56,545 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:01:56,545 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:01:56,749 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17043174:...
+2016-09-06 16:01:56,749 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:01:56,750 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:01:56,751 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:01:56,751 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43174
+2016-09-06 16:14:00,092 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:14:00,093 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:14:00,095 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:14:00,095 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:00,098 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:00,098 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:14:00,098 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:14:00,303 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17050686...
+2016-09-06 16:14:00,303 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:14:00,304 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:14:00,304 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:14:00,304 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:50686
+2016-09-06 16:14:00,307 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:14:00,307 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:14:00,307 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:14:00,307 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:00,310 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:00,310 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:14:00,310 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:14:00,513 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17043992:...
+2016-09-06 16:14:00,513 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:14:00,514 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:14:00,514 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:14:00,514 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43992
+2016-09-06 16:14:37,410 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:14:37,410 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:14:37,411 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:14:37,411 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:37,413 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:37,413 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:14:37,413 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:14:37,627 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17050688...
+2016-09-06 16:14:37,627 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:14:37,628 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:14:37,629 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:14:37,629 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:50688
+2016-09-06 16:14:37,631 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:14:37,631 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:14:37,631 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:14:37,631 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:37,639 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:14:37,639 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:14:37,639 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:14:37,843 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17043994:...
+2016-09-06 16:14:37,843 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:14:37,844 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:14:37,845 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:14:37,845 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43994
+2016-09-06 16:16:26,287 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:16:26,288 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:16:26,289 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:16:26,289 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:16:26,297 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:16:26,297 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:16:26,297 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:16:26,501 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17050691...
+2016-09-06 16:16:26,502 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:16:26,503 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:16:26,504 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:16:26,504 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:50691
+2016-09-06 16:16:26,507 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:16:26,507 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:16:26,508 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:16:26,508 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:16:26,510 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:16:26,510 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:16:26,510 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:16:26,713 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17043997:...
+2016-09-06 16:16:26,713 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:16:26,714 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:16:26,714 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:16:26,715 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43997
+2016-09-06 16:18:26,726 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:18:26,726 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:18:26,727 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:18:26,727 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:18:26,738 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:18:26,738 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:18:26,738 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:18:26,944 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17043737...
+2016-09-06 16:18:26,944 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:18:26,945 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:18:26,945 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:18:26,945 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43737
+2016-09-06 16:18:26,947 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:18:26,947 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:18:26,947 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:18:26,947 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:18:26,950 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:18:26,950 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:18:26,950 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:18:27,153 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17040467:...
+2016-09-06 16:18:27,153 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:18:27,154 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:18:27,154 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:18:27,154 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:40467
+2016-09-06 16:19:57,086 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:19:57,086 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:19:57,087 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:19:57,087 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:19:57,089 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:19:57,089 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:19:57,089 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:19:57,293 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17043739...
+2016-09-06 16:19:57,293 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:19:57,294 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:19:57,294 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:19:57,295 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43739
+2016-09-06 16:19:57,301 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:19:57,301 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:19:57,301 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:19:57,301 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:19:57,307 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:19:57,307 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:19:57,308 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:19:57,507 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17040469:...
+2016-09-06 16:19:57,507 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:19:57,508 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:19:57,508 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:19:57,508 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:40469
+2016-09-06 16:22:11,220 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:22:11,220 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:22:11,221 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:22:11,221 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:22:11,229 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:22:11,229 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:22:11,229 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:22:11,434 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17043742...
+2016-09-06 16:22:11,434 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:22:11,435 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:22:11,436 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:22:11,436 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:43742
+2016-09-06 16:22:11,438 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:22:11,438 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:22:11,438 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:22:11,438 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:22:11,441 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:22:11,441 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:22:11,441 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:22:11,645 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17040472:...
+2016-09-06 16:22:11,645 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:22:11,646 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:22:11,646 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:22:11,646 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:40472
+2016-09-06 16:24:19,712 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:24:19,712 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:24:19,713 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:24:19,714 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:24:19,720 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:24:19,720 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:24:19,720 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:24:19,923 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17059223...
+2016-09-06 16:24:19,923 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:24:19,924 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:24:19,925 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:24:19,925 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:59223
+2016-09-06 16:24:19,932 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:24:19,932 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:24:19,933 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:24:19,933 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:24:19,935 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:24:19,935 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:24:19,935 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:24:20,139 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17052970:...
+2016-09-06 16:24:20,139 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:24:20,140 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:24:20,141 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:24:20,141 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:52970
+2016-09-06 16:26:39,730 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:26:39,731 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:26:39,731 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:26:39,731 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:26:39,736 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:26:39,736 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:26:39,736 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:26:39,941 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17059226...
+2016-09-06 16:26:39,941 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:26:39,941 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:26:39,942 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:26:39,942 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:59226
+2016-09-06 16:26:39,943 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-06 16:26:39,943 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-06 16:26:39,944 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-06 16:26:39,944 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:26:39,946 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-06 16:26:39,946 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-06 16:26:39,946 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-06 16:26:40,150 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17052973:...
+2016-09-06 16:26:40,150 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-06 16:26:40,151 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-06 16:26:40,152 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-06 16:26:40,152 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:52973
+2016-09-07 11:42:31,394 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-07 11:42:31,395 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-07 11:42:31,396 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-07 11:42:31,396 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:17:00,558 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-12 11:17:00,558 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:17:00,559 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:17:00,560 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:22:50,037 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-12 11:22:50,037 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:22:50,038 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:22:50,038 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:30:58,102 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-12 11:30:58,103 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:30:58,104 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:30:58,104 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:30:58,112 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:30:58,112 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-12 11:30:58,112 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-12 11:30:58,311 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17050864...
+2016-09-12 11:30:58,311 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-12 11:30:58,312 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-12 11:30:58,312 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-12 11:30:58,313 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:50864
+2016-09-12 11:30:58,314 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-12 11:30:58,314 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:30:58,315 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:30:58,315 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:30:58,317 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:30:58,317 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-12 11:30:58,317 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-12 11:30:58,520 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17041737:...
+2016-09-12 11:30:58,520 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-12 11:30:58,522 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-12 11:30:58,523 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-12 11:30:58,523 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:41737
+2016-09-12 11:55:54,462 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-12 11:55:54,463 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:55:54,464 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:55:54,464 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,472 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,472 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-12 11:55:54,472 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-12 11:55:54,676 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17038413...
+2016-09-12 11:55:54,676 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-12 11:55:54,678 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-12 11:55:54,678 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-12 11:55:54,678 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:38413
+2016-09-12 11:55:54,680 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-12 11:55:54,680 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-12 11:55:54,681 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-12 11:55:54,681 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,683 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-12 11:55:54,683 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-12 11:55:54,683 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-12 11:55:54,887 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17052691:...
+2016-09-12 11:55:54,887 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-12 11:55:54,888 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-12 11:55:54,888 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-12 11:55:54,888 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:52691
+2016-09-13 10:08:47,157 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.31.211 and the max connection is 20
+2016-09-13 10:08:47,157 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-13 10:08:47,158 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-13 10:08:47,158 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-13 10:09:23,147 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-13 10:09:23,147 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-13 10:09:23,148 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-13 10:09:23,148 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-13 10:09:23,161 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '000000011234asdf', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-13 10:09:23,162 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-13 10:09:23,162 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-13 10:09:23,357 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17060275...
+2016-09-13 10:09:23,357 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-13 10:09:23,358 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-13 10:09:23,359 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdf', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-13 10:09:23,359 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:60275
+2016-09-13 10:09:23,360 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-13 10:09:23,360 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-13 10:09:23,360 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-13 10:09:23,360 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-13 10:09:23,363 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000011234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-13 10:09:23,363 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-13 10:09:23,363 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-13 10:09:23,566 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17048957:...
+2016-09-13 10:09:23,567 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-13 10:09:23,568 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-13 10:09:23,568 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000011234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-13 10:09:23,568 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:48957
+2016-09-21 14:38:13,086 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:38:13,087 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:38:13,087 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:38:13,088 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '8588d979', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:38:13,100 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': '8588d979', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:38:13,101 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:38:13,102 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:40:35,580 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:40:35,581 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:40:35,582 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:40:35,582 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': u'00000001e33ebf0f', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,584 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': u'00000001e33ebf0f', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,584 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:40:35,584 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:40:35,790 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17060715...
+2016-09-21 14:40:35,790 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-21 14:40:35,792 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:40:35,792 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'00000001e33ebf0f', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:40:35,792 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:60715
+2016-09-21 14:40:35,794 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:40:35,794 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:40:35,794 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:40:35,794 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000031234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,797 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000031234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:40:35,797 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:40:35,797 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:40:36,010 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17036100:...
+2016-09-21 14:40:36,010 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-21 14:40:36,011 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:40:36,011 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000031234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:40:36,011 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:36100
+2016-09-21 14:46:46,479 - DispatcherSocketConnect - DEBUG - Web tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:46:46,479 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:46:46,479 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:46:46,479 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': u'00000001f4a92078', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,483 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1874', 'SourceID': u'00000001f4a92078', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,484 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:46:46,484 - DispatcherSocketConnect - DEBUG - web tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:46:46,698 - DispatcherSocketConnect - DEBUG - Accept new connection from :192.168.1.17050647...
+2016-09-21 14:46:46,698 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-21 14:46:46,699 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:46:46,699 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'00000001f4a92078', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:46:46,700 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:50647
+2016-09-21 14:46:46,701 - DispatcherSocketConnect - DEBUG - Fwd tcp is ready,and the local IP is 192.168.1.4 and the max connection is 20
+2016-09-21 14:46:46,701 - DispatcherSocketConnect - DEBUG - trying to catch the fwd gateway.....
+2016-09-21 14:46:46,701 - DispatcherSocketConnect - DEBUG - the udp group is 192.168.1.255 and the port is 32768 
+2016-09-21 14:46:46,701 - DispatcherSocketConnect - DEBUG - the valid request is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000031234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,703 - DispatcherSocketConnect - DEBUG - the valid response is :{'Status': 0, 'PackageNumber': '1876', 'SourceID': '000000031234asdg', 'List': [], 'DestinationID': '0000000000000001', 'Command': '', 'Message': 'SLAVE', 'Type': 'NULL'}
+2016-09-21 14:46:46,704 - DispatcherSocketConnect - DEBUG - udp valid successfully
+2016-09-21 14:46:46,704 - DispatcherSocketConnect - DEBUG - fwd tcp is Waiting for connection from fwd-gateway
+2016-09-21 14:46:46,906 - DispatcherSocketConnect - DEBUG - Accept new connection from 192.168.1.17052373:...
+2016-09-21 14:46:46,906 - DispatcherSocketConnect - DEBUG - trying to valid the connector
+2016-09-21 14:46:46,907 - DispatcherSocketConnect - DEBUG - the message received is :{u'Status': 1, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': u'invalid ID', u'List': [{u'RelayIPAddr': u'NULL'}, {u'RelayTCPPort': u'NULL'}, {u'BackupIPAddr': u'NULL'}, {u'BackupTCPPort': u'NULL'}], u'DestinationID': u'0000000000000005', u'Command': u'login', u'Message': u'*:jennet', u'Type': u'  '}
+2016-09-21 14:46:46,907 - DispatcherSocketConnect - DEBUG - the replay is :{u'Status': 0, u'PackageNumber': u'fffd:WhiteListIDTail', u'SourceID': '000000031234asdg', u'List': [], u'DestinationID': u'0000000000000005', u'Command': '', u'Message': 'login successful', u'Type': 'NULL'}
+2016-09-21 14:46:46,907 - DispatcherSocketConnect - DEBUG - catch the fwd-gateway successfully  192.168.1.170:52373

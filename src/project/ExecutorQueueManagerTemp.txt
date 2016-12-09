@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+import time, sys, Queue
+from multiprocessing.managers import BaseManager
+class QueueManager(BaseManager):
+    pass
+def getTaskAndResult():
+    QueueManager.register('G$_task_queue')
+    QueueManager.register('G$_result_queue')
+    server_addr = '&'
+    print('Connect to server %s...' % server_addr)
+    m = QueueManager(address=(server_addr, 5000), authkey='abc')
+    m.connect()
+    task = m.G$_task_queue()
+    result = m.G$_result_queue()
+    return task,result
