@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-
 import SqliteUtil
 import httplib
 import urllib
@@ -26,61 +24,62 @@ log_fmt = '%(asctime)s\tFile \"%(filename)s\",line %(lineno)s\t%(levelname)s: %(
 formatter = logging.Formatter(log_fmt)
 logging.basicConfig(level=logging.DEBUG)
 #创建TimedRotatingFileHandler对象
-# fileUpdaterHandler = TimedRotatingFileHandler(filename="/sbin/updateLog", when="D", interval=1, backupCount=2)
-# fileUpdaterHandler.setFormatter(formatter)
-# fileUpdater = logging.getLogger('update')
-# fileUpdater.addHandler(fileUpdaterHandler)
-#
-#
-# dataReaderHandler = TimedRotatingFileHandler(filename="/sbin/dataReaderLog", when="D", interval=1, backupCount=2)
-# dataReaderHandler.setFormatter(formatter)
-# dataReader = logging.getLogger('dataReader')
-# dataReader.addHandler(dataReaderHandler)
-#
-# failedPostHandler = TimedRotatingFileHandler(filename="/sbin/failedPostLog", when="D", interval=1, backupCount=2)
-# failedPostHandler.setFormatter(formatter)
-# failedPost = logging.getLogger('failedPost')
-# failedPost.addHandler(failedPostHandler)
-#
-# failedUpdateHandler = TimedRotatingFileHandler(filename="/sbin/failedUpdateLog", when="D", interval=1, backupCount=2)
-# failedUpdateHandler.setFormatter(formatter)
-# failedUpdate = logging.getLogger('failedUpdate')
-# failedUpdate.addHandler(failedPostHandler)
-#
-# basisDataReaderHandler = TimedRotatingFileHandler(filename="/sbin/BasisDataReaderLog", when="D", interval=1, backupCount=2)
-# basisDataReaderHandler.setFormatter(formatter)
-# basisDataReader = logging.getLogger('BasisDataReader')
-# basisDataReader.addHandler(basisDataReaderHandler)
-#
-# basisDataUpdateHandler = TimedRotatingFileHandler(filename="/sbin/basisDataUpdateLog", when="D", interval=1, backupCount=2)
-# basisDataUpdateHandler.setFormatter(formatter)
-# basisDataUpdate = logging.getLogger('basisDataUpdate')
-# basisDataUpdate.addHandler(basisDataUpdateHandler)
+fileUpdaterHandler = TimedRotatingFileHandler(filename="/sbin/updateLog", when="D", interval=1, backupCount=2)
+fileUpdaterHandler.setFormatter(formatter)
+fileUpdater = logging.getLogger('update')
+fileUpdater.addHandler(fileUpdaterHandler)
+
+
+dataReaderHandler = TimedRotatingFileHandler(filename="/sbin/dataReaderLog", when="D", interval=1, backupCount=2)
+dataReaderHandler.setFormatter(formatter)
+dataReader = logging.getLogger('dataReader')
+dataReader.addHandler(dataReaderHandler)
+
+failedPostHandler = TimedRotatingFileHandler(filename="/sbin/failedPostLog", when="D", interval=1, backupCount=2)
+failedPostHandler.setFormatter(formatter)
+failedPost = logging.getLogger('failedPost')
+failedPost.addHandler(failedPostHandler)
+
+failedUpdateHandler = TimedRotatingFileHandler(filename="/sbin/failedUpdateLog", when="D", interval=1, backupCount=2)
+failedUpdateHandler.setFormatter(formatter)
+failedUpdate = logging.getLogger('failedUpdate')
+failedUpdate.addHandler(failedPostHandler)
+
+basisDataReaderHandler = TimedRotatingFileHandler(filename="/sbin/BasisDataReaderLog", when="D", interval=1, backupCount=2)
+basisDataReaderHandler.setFormatter(formatter)
+basisDataReader = logging.getLogger('BasisDataReader')
+basisDataReader.addHandler(basisDataReaderHandler)
+
+basisDataUpdateHandler = TimedRotatingFileHandler(filename="/sbin/basisDataUpdateLog", when="D", interval=1, backupCount=2)
+basisDataUpdateHandler.setFormatter(formatter)
+basisDataUpdate = logging.getLogger('basisDataUpdate')
+basisDataUpdate.addHandler(basisDataUpdateHandler)
 
 
 
 
-# cf = ConfigParser.ConfigParser()
-#
-# cf.read("/sbin/config.conf")
-#
-# serverAddr = cf.get('uploader','addr')
-# serverPort =cf.get('uploader','port')
-# serverUri = cf.get('uploader','uri')
-#
-# basisUpdateAddr = cf.get('BasisUpdater','addr')
-# basisUpdatePort = cf.get('BasisUpdater','port')
-# basisUpdateUri = cf.get('BasisUpdater','uri')
-#
-# failed_post_from_real_records = cf.get('uploader','failed_post_from_real_records')
-# failed_post_from_failed_records = cf.get('uploader','failed_post_from_failed_records')
-# failed_records = cf.get('uploader','failed_records')
-# total_records = cf.get('uploader','total_records')
-#
-# appId = cf.get('AG','appId')
-# token = cf.get('AG','token')
-# timestamp = cf.get('AG','timestamp')
-# md5Param = cf.get('AG','md5Param')
+cf = ConfigParser.ConfigParser()
+
+cf.read("/sbin/config.conf")
+
+serverAddr = cf.get('uploader','addr')
+serverPort =cf.get('uploader','port')
+serverUri = cf.get('uploader','uri')
+
+basisUpdateAddr = cf.get('BasisUpdater','addr')
+basisUpdatePort = cf.get('BasisUpdater','port')
+deviceUpdateUri = cf.get('BasisUpdater','deivceUri')
+classUpdateUri = cf.get('BasisUpdater','classUri')
+
+failed_post_from_real_records = cf.get('uploader','failed_post_from_real_records')
+failed_post_from_failed_records = cf.get('uploader','failed_post_from_failed_records')
+failed_records = cf.get('uploader','failed_records')
+total_records = cf.get('uploader','total_records')
+
+appId = cf.get('AG','appId')
+token = cf.get('AG','token')
+timestamp = cf.get('AG','timestamp')
+md5Param = cf.get('AG','md5Param')
 
 def getTheRealTimeData():
 
@@ -113,7 +112,12 @@ def getTheBaisData():
     accountId = gatewayId[0:8]
     for data in deviceDatas:
         data['account_id']=accountId
-    return deviceDatas
+
+    sqlForChannel = 'SELECT * FROM table_channel'
+    ChannelDatas = SqliteUtil.getTheGatewayId(sqlForChannel)
+    for data in ChannelDatas:
+        data['account_id'] = accountId
+    return deviceDatas,ChannelDatas
 
 def getTheFailedQueue():
     return SqliteUtil.getTheFaileQueue()
@@ -259,17 +263,17 @@ def upLoad(params):
           httpClient.close()
           return result
 
-def upDate(params):
+def upDate(params,uri):
     result = True
     params = json.dumps(params)
     headers = {"Content-type": "application/json"
         , "Accept": "application/json"}
     httpClient = None
     try:
-        # httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
-        # httpClient.request("POST", basisUpdateUri, params, headers)
-        httpClient = httplib.HTTPConnection('localhost',8080,timeout=3)
-        httpClient.request("POST",'/upload/basis',params,headers)
+        httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
+        httpClient.request("POST", uri, params, headers)
+        # httpClient = httplib.HTTPConnection('localhost',8080,timeout=3)
+        # httpClient.request("POST",'/upload/basis',params,headers)
         response = httpClient.getresponse()
         if response.status != 200:
             result = False
@@ -328,7 +332,6 @@ def uploadTest(params):
                     if x['id'] == pk:
                         failed.append(x)
                 return result
-
         return result
 
     except Exception:
@@ -403,18 +406,20 @@ def basisDataUpdater():
     # cacheTime = statinfo.st_mtime
     cacheTime = 0.0
     currentTime = 0.0
-    while True:
+    index = 2
+    sleepTime = 1800
 
+    while True:
         flag = False
 
-        for x in range(2):
+        for x in range(index):
             statinfo = os.stat('/root/JenNet_File/Basis_Data.db')
             currentTime = statinfo.st_mtime
             if currentTime - cacheTime > 0:
                 flag = True
                 break
             else:
-                time.sleep(1800)
+                time.sleep(sleepTime)
 
         if cacheTime!=0.0:
             ltime = time.localtime(cacheTime)
@@ -424,19 +429,20 @@ def basisDataUpdater():
         cacheTime = currentTime
         if flag:
 
-            data = getTheBaisData()
+            deviceDatas, ChannelDatas = getTheBaisData()
 
-            basisDataReader.debug('the real-time data is :' + str(data))
+            basisDataReader.debug('the deviceInfo is :' + str(deviceDatas))
+            basisDataReader.debug('the deviceInfo is :' + str(ChannelDatas))
 
-            flagForData = upDate(data)
+            flagForDevice = upDate(deviceDatas,deviceUpdateUri)
+            flagForChannel = upDate(ChannelDatas,classUpdateUri)
 
-            if flagForData:
+            if flagForDevice and flagForChannel:
                 print 'upload realtime success'
             else:
-                print 'failed to upload realtime data ,append it into the failed queue'
-                # 历史数据上传失败,实时数据上传失败
-                totalFailedLog(data)
-                appendIntoFailedQueue(data)
+                cacheTime=0.0
+                time.sleep(60)
+                print 'failed to upload realtime data ,reset the cache time'
         else:
             print 'the database is not update'
 
@@ -449,34 +455,13 @@ def logClear():
         SqliteUtil.clearLog(total_records)
 
 def main():
-    # threadFailed =threading.Thread(target=failedUploader, args=())
-    # threadReal = threading.Thread(target=realTimeUploader, args=())
-    # threadBasis = threading.Thread(target=basisDataUpdater,args=())
+    threadFailed =threading.Thread(target=failedUploader, args=())
+    threadReal = threading.Thread(target=realTimeUploader, args=())
+    threadBasis = threading.Thread(target=basisDataUpdater,args=())
 
-    # threadFailed.start()
-    # threadReal.start()
-    # threadBasis.start()
-
-    param = {}
-    param['id']="id"
-    param['device_guid'] ='123123123'
-    param['gateway_id'] = 'qweqweqweqwe'
-    param['device_addr'] = 'device_addr'
-    param['device_name'] = 'device_name'
-    param['device_id'] = 'device_id'
-    param['device_type'] = 'device_type'
-    param['device_valid'] = 'device_valid'
-    param['device_switch'] = 'device_switch'
-    param['device_value'] = 'device_value'
-    param['device_delay'] = 'device_delay'
-    param['device_register_type'] = 'device_register_type'
-    param['account_id'] = 'account_id'
-
-
-
-    params = []
-    params.append(param)
-    upDate(params)
+    threadFailed.start()
+    threadReal.start()
+    threadBasis.start()
 
 
 
