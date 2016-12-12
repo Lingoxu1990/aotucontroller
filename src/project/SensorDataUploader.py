@@ -70,6 +70,7 @@ basisUpdateAddr = cf.get('BasisUpdater','addr')
 basisUpdatePort = cf.get('BasisUpdater','port')
 deviceUpdateUri = cf.get('BasisUpdater','deivceUri')
 classUpdateUri = cf.get('BasisUpdater','classUri')
+gatewayUpdateUri = cf.get('BasisUpdater','gatewayUri')
 
 failed_post_from_real_records = cf.get('uploader','failed_post_from_real_records')
 failed_post_from_failed_records = cf.get('uploader','failed_post_from_failed_records')
@@ -117,7 +118,11 @@ def getTheBaisData():
     ChannelDatas = SqliteUtil.getTheGatewayId(sqlForChannel)
     for data in ChannelDatas:
         data['account_id'] = accountId
-    return deviceDatas,ChannelDatas
+
+    AccountDataInfo = {}
+    AccountDataInfo['gateway_id']=gatewayId
+    AccountDataInfo['account_id']=accountId
+    return deviceDatas,ChannelDatas,AccountDataInfo
 
 def getTheFailedQueue():
     return SqliteUtil.getTheFaileQueue()
@@ -230,6 +235,53 @@ def upLoadFailed(params):
             httpClient.close()
             return result
 
+def upLoadFailedWithoutAG(params):
+
+
+    result = True
+
+    params = json.dumps(params)
+
+    headers = {"Content-type": "application/json"
+        , "Accept": "*/*"}
+
+    httpClient = None
+
+    try:
+
+        httpClient = httplib.HTTPConnection(serverAddr, int(serverPort), timeout=3)
+        httpClient.request("POST", serverUri, params, headers)
+
+        response = httpClient.getresponse()
+
+        if response.status != 200:
+
+            result = False
+
+        strResult = response.read()
+
+        jsonReslut = json.loads(strResult)
+
+
+        if jsonReslut['code'] != '0':
+
+
+            result = False
+            if jsonReslut['message'] == 'DuplicateKeyException':
+                pk = jsonReslut['content']
+                clearDpk(pk)
+                return result
+
+        return result
+
+    except Exception,e:
+        print e
+        result = False
+    finally:
+        if httpClient != None:
+            httpClient.close()
+            return result
+
 
 def upLoad(params):
     param = agSign()
@@ -262,6 +314,37 @@ def upLoad(params):
         if httpClient!=None:
           httpClient.close()
           return result
+
+def upLoadWithoutAG(params):
+    result = True
+    params = json.dumps(params)
+    headers = {"Content-type": "application/json"
+        , "Accept": "application/json"}
+    httpClient = None
+    try:
+        httpClient = httplib.HTTPConnection(serverAddr, int(serverPort), timeout=3)
+        httpClient.request("POST", serverUri, params, headers)
+        response = httpClient.getresponse()
+        if response.status != 200:
+            result = False
+        strResult = response.read()
+        print strResult
+        jsonReslut = json.loads(strResult)
+        if jsonReslut['code'] != '0':
+            result = False
+            if jsonReslut['message'] == 'DuplicateKeyException':
+                pk = jsonReslut['content']
+                # print 'the pk: '+str(pk) +' is duplicate '
+                clearDpk(pk)
+                return result
+        return result
+    except Exception, e:
+        failedPost.debug(e)
+        result = False
+    finally:
+        if httpClient != None:
+            httpClient.close()
+            return result
 
 def upDate(params,uri):
     result = True
@@ -349,7 +432,8 @@ def failedUploader():
 
         flagForQueue = True
         if len(dataInQueue) != 0:
-            flagForQueue = upLoadFailed(dataInQueue)
+            # flagForQueue = upLoadFailed(dataInQueue)
+            flagForQueue=upLoadFailedWithoutAG(dataInQueue)
 
         if flagForQueue:
             print 'upload the failedQueue successfully, clear the uploaded data'
@@ -360,15 +444,11 @@ def failedUploader():
         time.sleep(10)
 
 def realTimeUploader():
-
-
     statinfo = os.stat('/root/JenNet_File/Record_Data.db')
     cacheTime = statinfo.st_mtime
     currentTime = 0.0
     while True:
-
         flag = False
-
         for x in range(10):
             statinfo = os.stat('/root/JenNet_File/Record_Data.db')
             currentTime = statinfo.st_mtime
@@ -389,7 +469,8 @@ def realTimeUploader():
 
             dataReader.debug('the real-time data is :'+str(data))
 
-            flagForData = upLoad(data)
+            # flagForData = upLoad(data)
+            flagForData=upLoadWithoutAG(data)
 
             if flagForData:
                 print 'upload realtime success'
@@ -429,15 +510,16 @@ def basisDataUpdater():
         cacheTime = currentTime
         if flag:
 
-            deviceDatas, ChannelDatas = getTheBaisData()
+            deviceDatas, ChannelDatas,accountDataInfo = getTheBaisData()
 
             basisDataReader.debug('the deviceInfo is :' + str(deviceDatas))
             basisDataReader.debug('the deviceInfo is :' + str(ChannelDatas))
 
             flagForDevice = upDate(deviceDatas,deviceUpdateUri)
             flagForChannel = upDate(ChannelDatas,classUpdateUri)
+            flagForGateway = upDate(accountDataInfo,gatewayUpdateUri)
 
-            if flagForDevice and flagForChannel:
+            if flagForDevice and flagForChannel and flagForGateway:
                 print 'upload realtime success'
             else:
                 cacheTime=0.0

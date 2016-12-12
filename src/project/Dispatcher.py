@@ -367,18 +367,13 @@ def locationUploader(params):
 
     # 获取调用ag 所需要的uri参数
     param = agSign()
-
     # print params
-
     # 本次上传是否成功的标志位,最终将做为参数返回给调用者
     result=True
-
     # 将调度进程信息的键值对 转化为json对象
     params = json.dumps(params)
-
     # 设置http请求头
     headers = {"Content-type": "application/json", "Accept": "*/*"}
-
     # http对象
     httpClient=None
 
@@ -517,13 +512,10 @@ def test():
 def main(queueList,nodeList,leader):
     # 用于存储配方反馈程序的线程对象
     threadControl = []
-
     # 根据网关ID前8位,获取用户id
     account_id = leader[0:8]
-
     # 随机生成调度进程在转发网络中的位置id(虚拟的一个gateway_id),该id将被上传至服务器,让服务器下发指令
     dispatcherGateway = account_id + str(uuid.uuid4())[:4] + str(uuid.uuid4())[-4:]
-
     fwdGateway=''
     while True:
         #  随机生成调度进程与转发网关的另一个连接id,该id只要不与 dispatcherGateway 相同就行。
@@ -622,18 +614,13 @@ def main(queueList,nodeList,leader):
             json['SourceID'] = SourceId
             json['Message'] = 'reviced'
             json['Status'] = 0
-
-
             outPutData = OutPutMessage.getBytes(json)
-
             websocket.send(outPutData)
 
             for gateway, task, result in queueList:
                 task.put(taskMessag)
-
                 if result.get() != 'ready to reboot in 5s':
                     continue
-
             logger.debug('replay :' + str(json))
 
 
