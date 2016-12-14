@@ -488,7 +488,7 @@ def basisDataUpdater():
     cacheTime = 0.0
     currentTime = 0.0
     index = 2
-    sleepTime = 1800
+    sleepTime = 5
 
     while True:
         flag = False
