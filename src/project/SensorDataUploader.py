@@ -82,19 +82,35 @@ token = cf.get('AG','token')
 timestamp = cf.get('AG','timestamp')
 md5Param = cf.get('AG','md5Param')
 
+def getUtcTime():
+    headers = {"Accept": "application/json"}
+
+    httpClient = httplib.HTTPConnection(serverAddr, int(serverPort), timeout=3)
+    httpClient.request("GET", "/timestamp", '', headers)
+
+    response = httpClient.getresponse()
+    if response.status == 200:
+        tms = response.read()
+        tms = json.loads(tms)
+        aaa = tms['content']
+        ltime = time.localtime(aaa)
+        timeStr = time.strftime("%Y-%m-%d %H:%M:%S", ltime)
+        return timeStr
+    else:
+        return None
+
 def getTheRealTimeData():
 
     sqlForSensorRecord = 'SELECT * FROM table_sensor_record'
 
     records = SqliteUtil.getSensorRealtime(sqlForSensorRecord)
+    utcTime = getUtcTime()
 
     device_type='gateway'
 
     sqlForGateway = 'SELECT * FROM table_device WHERE device_type = \'%s\''%(device_type)
 
     gateway = SqliteUtil.getTheGatewayId(sqlForGateway)
-
-    # print gateway
 
     gatewayId = gateway[0]['gateway_id']
 
@@ -103,7 +119,10 @@ def getTheRealTimeData():
     for record in records:
         record['id']= str(uuid.uuid1())
         record['account_id']=accountId
-
+        if utcTime!=None:
+            record['record_time']=utcTime
+        else:
+            dataReader.debug("could not get the online utc time,use the original time instead.")
     return records
 
 def getTheBaisData():
