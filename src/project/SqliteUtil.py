@@ -151,7 +151,10 @@ def getSensorRealtime(sql):
 # 该方法用于查找网关ID,同时可以用于查找当前网关下的设备信息
 def getTheGatewayId(sql):
     try:
+
+
         conn = sqlite3.connect('/root/JenNet_File/Basis_Data.db')
+        # conn = sqlite3.connect('C:\Users\Administrator\Desktop\Basis_Data.db')
         cursor = conn.cursor()
         cursor.execute(sql)
         meta = cursor.description
@@ -423,3 +426,86 @@ def clearLog(tableName):
     conn.close()
 
 # test()
+
+def initRegion():
+    sqlForDevice = "select * from table_device"
+    devices = getTheGatewayId(sqlForDevice)
+    print devices
+    sqlForDevice = "select * from table_channel"
+    channels = getTheGatewayId(sqlForDevice)
+    # print channels
+    region={}
+    region['region_guid']=str(uuid.uuid1())
+    region['region_addr']='ff15:9001'
+    region['region_name']='Area'
+    region['region_switch']='00'
+    for device in devices:
+        if device['device_type']!='sensor' and device['device_type']!='gateway':
+            region['region_value'] = device['device_value']
+            break
+    region['region_delay']='1'
+    if len(devices)!=0:
+        region['gateway_id'] = devices[0]['gateway_id']
+
+    result = []
+    params = []
+    for device in devices:
+
+        if device['device_type'] != 'gateway':
+            for channel in channels:
+                if channel['table_device_guid']==device['device_guid']:
+                    regionDevice = {}
+                    param = []
+
+                    regionDevice['region_device_guid'] = str(uuid.uuid1())
+                    param.append(regionDevice['region_device_guid'])
+
+                    regionDevice['region_guid'] = region['region_guid']
+                    param.append(regionDevice['region_guid'])
+
+                    regionDevice['region_addr'] = region['region_addr']
+                    param.append(regionDevice['region_addr'])
+
+                    regionDevice['region_name'] = region['region_name']
+                    param.append(regionDevice['region_name'])
+
+                    regionDevice['table_device_guid'] = device['device_guid']
+                    param.append(regionDevice['table_device_guid'])
+
+                    regionDevice['gateway_id'] = device['gateway_id']
+                    param.append(regionDevice['gateway_id'])
+
+                    regionDevice['device_addr'] = device['device_addr']
+                    param.append(regionDevice['device_addr'])
+
+                    regionDevice['device_name'] = device['device_name']
+                    param.append(regionDevice['device_name'])
+
+                    regionDevice['channel_class'] = channel['channel_class']
+                    param.append(regionDevice['channel_class'])
+
+                    regionDevice['channel_guid']=channel['channel_guid']
+                    param.append(regionDevice['channel_guid'])
+
+                    regionDevice['channel_name']=channel['channel_name']
+                    param.append(regionDevice['channel_name'])
+
+                    regionDevice['channel_type']=channel['channel_type']
+                    param.append(regionDevice['channel_type'])
+
+                    regionDevice['channel_bit_num']=channel['channel_number']
+                    param.append(regionDevice['channel_bit_num'])
+                    print len(param)
+                    params.append(tuple(param))
+                    result.append(regionDevice)
+
+
+    insertSql = "insert into table_region_device (region_device_guid,region_guid,region_addr,region_name,table_device_guid,gateway_id,device_addr,device_name,channel_class,channel_guid,channel_name,channel_type,channel_bit_num) " \
+                "VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)"
+    conn = sqlite3.connect('/root/JenNet_File/Basis_Data.db')
+    # conn = sqlite3.connect('C:\Users\Administrator\Desktop\Basis_Data.db')
+    print len(params)
+    cursor = conn.cursor()
+    cursor.executemany(insertSql, params)
+    conn.commit()
+    conn.close()

@@ -368,33 +368,90 @@ def upLoadWithoutAG(params):
 def upDate(params,uri):
     result = True
     params = json.dumps(params)
-    headers = {"Content-type": "application/json"
-        , "Accept": "application/json"}
-    httpClient = None
-    try:
-        httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
-        httpClient.request("POST", uri, params, headers)
-        # httpClient = httplib.HTTPConnection('localhost',8080,timeout=3)
-        # httpClient.request("POST",'/upload/basis',params,headers)
-        response = httpClient.getresponse()
-        if response.status != 200:
-            result = False
-        strResult = response.read()
-        print strResult
-        jsonReslut = json.loads(strResult)
-        if jsonReslut['code'] != '0':
-            result = False
-            if jsonReslut['message'] == 'DuplicateKeyException':
-                pk = jsonReslut['content']
-                clearDpk(pk)
-                return result
-        return result
-    except Exception, e:
-        failedUpdate.debug(e)
-        result = False
-    finally:
-        if httpClient != None:
-            httpClient.close()
+    totalLen = len(params)
+    index = totalLen/100
+    remainder = totalLen%100
+
+    if index>0:
+       for x in range(index):
+            paramIndex = {}
+            paramIndex['index'] = str(x + 1)
+            paramIndex['data'] = params[x * 100:(x + 1) * 100]
+            headers = {"Content-type": "application/json"
+                , "Accept": "application/json"}
+            httpClient = None
+            try:
+                httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
+                httpClient.request("POST", uri, paramIndex, headers)
+                response = httpClient.getresponse()
+                if response.status != 200:
+                    result = False
+                strResult = response.read()
+                jsonReslut = json.loads(strResult)
+                if jsonReslut['code'] != '0':
+                    result = False
+                    return result
+            except Exception, e:
+                failedUpdate.debug(e)
+                return False
+            finally:
+                if httpClient != None:
+                    httpClient.close()
+
+
+
+
+    if remainder>0:
+        paramRemainder = params[-remainder:]
+        headers = {"Content-type": "application/json"
+            , "Accept": "application/json"}
+        httpClient = None
+        try:
+            httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
+            httpClient.request("POST", uri, paramRemainder, headers)
+            response = httpClient.getresponse()
+            if response.status != 200:
+                result = False
+            strResult = response.read()
+            print strResult
+            jsonReslut = json.loads(strResult)
+            if jsonReslut['code'] != '0':
+                return False
+        except Exception, e:
+            failedUpdate.debug(e)
+            return False
+        finally:
+            if httpClient != None:
+                httpClient.close()
+
+
+    # headers = {"Content-type": "application/json"
+    #     , "Accept": "application/json"}
+    # httpClient = None
+    # try:
+    #     httpClient = httplib.HTTPConnection(basisUpdateAddr, int(basisUpdatePort), timeout=3)
+    #     httpClient.request("POST", uri, params, headers)
+    #     # httpClient = httplib.HTTPConnection('localhost',8080,timeout=3)
+    #     # httpClient.request("POST",'/upload/basis',params,headers)
+    #     response = httpClient.getresponse()
+    #     if response.status != 200:
+    #         result = False
+    #     strResult = response.read()
+    #     print strResult
+    #     jsonReslut = json.loads(strResult)
+    #     if jsonReslut['code'] != '0':
+    #         result = False
+    #         if jsonReslut['message'] == 'DuplicateKeyException':
+    #             pk = jsonReslut['content']
+    #             clearDpk(pk)
+    #             return result
+    #     return result
+    # except Exception, e:
+    #     failedUpdate.debug(e)
+    #     result = False
+    # finally:
+    #     if httpClient != None:
+    #         httpClient.close()
             return result
 
 def uploadTest(params):
